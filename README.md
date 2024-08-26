@@ -1,6 +1,6 @@
 # Quizellent
-***Quizellent*** is a powerful and user-friendly quiz and exam practicing app developed using C# and ASP.NET Core.
-This application is designed to help users prepare for various exams by practicing questions in an engaging and interactive way.
+***Quizellent*** is a powerful and user-friendly quiz and exam practicing app developed using C# and ASP.NET Core.This application is designed to help users prepare for various exams by practicing questions in an engaging and interactive way.
+![Quizellent Logo](https://drive.google.com/file/d/1e83ouWrWGoWyWmJ7ZcCDVqvpBy8QOKhp/view?usp=drive_link)
 
 ## Features
 
