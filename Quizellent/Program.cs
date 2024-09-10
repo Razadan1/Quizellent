@@ -1,7 +1,16 @@
+using Microsoft.AspNetCore.Connections;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Quizellent.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnectionContext")));
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().
+    AddEntityFrameworkStores<ApplicationDbContext>();
 
 var app = builder.Build();
 

@@ -18,7 +18,32 @@ namespace Quizellent.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Exams()
+        {
+            return View();
+        }
+
+        public IActionResult Trainers()
+        {
+            return View();
+        }
+
+        public IActionResult Event()
+        {
+            return View();
+        }
+
+        public IActionResult Pricing()
+        {
+            return View();
+        }
+
+        public IActionResult Contacts()
         {
             return View();
         }
